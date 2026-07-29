@@ -43,13 +43,13 @@ type RotatingTextProps = Omit<
   animate?: TargetAndTransition;
   exit?: TargetAndTransition;
 
+  transition?: Transition;
+
   animatePresenceMode?: AnimatePresenceProps["mode"];
   animatePresenceInitial?: boolean;
 
   staggerDuration?: number;
   staggerFrom?: StaggerFrom;
-
-  transition?: Transition;
 
   loop?: boolean;
   auto?: boolean;
